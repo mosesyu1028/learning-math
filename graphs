@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>When Do We Use Graphs? (Christmas Edition)</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <style>
+            #sway {
+                position: fixed;
+                z-index: 200;
+                right: 30px;
+                top: 50px;
+                background-color: rgb(125, 0, 0);
+                border: 5px ridge rgb(0, 200, 0);
+                opacity: 0.5;
+                padding: 5px;
+            }
+            #sway a {
+                font-family: serif;
+                color: rgb(225, 225, 225);
+            }
+            #sway:hover {
+                opacity: 1.0;
+            }
+            .tog-pic {
+                width: 120px;
+                float: left;
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id = "top" class = "theme1">
+            When Do We Use Graphs? (Christmas Edition)
+        </h1>
+        <h5 class = "theme1">
+        	In our everyday lives, we use graphs. Wonder how? Well, read on!
+        </h5>
+        <img id = "background-image">
+        <p id = "sway">
+            <a target = "_blank" href = "https://sway.com/iluPd8ZJh0ArjHqG">Go To Sway</a>
+        </p>
+        <table id = "awesome">
+            <thead>
+                <tr>
+                    <th class = "theme2">Who</th>
+                    <th class = "theme2">Picture</th>
+                    <th class = "theme2">Which</th>
+                    <th class = "theme2">How</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--Stock Holders--><!--HSBC-->
+                    <th class = "theme1"><a href = "#stock-holders">Stock holders</a></th>
+                    <td><img class = "graph-image" alt = "5 day price of HSBC stock price line graph" src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQp2oA4itmp4kDEBvgjzLOPrZGIrXk65eUiJhG9pgLaf517T6sQlg"></td>
+                    <th class = "theme1"><a href = "#line-graph">Line graph</a></th>
+                    <th class = "theme1">To check the price of their stock</th>
+                </tr>
+                <tr>
+                    <!--Teachers-->
+                    <th class = "theme1"><a href = "#teachers">Teachers</a></th>
+                    <td><img class = "graph-image" alt = "practice test and test scores double bar graph" src = "http://cdn-3.ask-math.com/images/Doublebargraph.png"></td>
+                    <th class = "theme1"><a href = "#double-bar-graph">Double bar graph</a></th>
+                    <th class = "theme1">To see the improments of the childrens' test scores</th>
+                </tr>
+                <tr>
+                    <!--Survey Companies 1-->
+                    <th class = "theme1"><a href = "#survey-companies">Survey companies (1)</a></th>
+                    <td><img class= "graph-image" alt = "favorite fruit bar graph" src = "http://www.velaction.com/lean-information/wp-content/uploads/2009/03/bar-chart-vertical-300x180.jpg"></td>
+                    <th class = "theme1"><a href = "#bar-graph">Bar graph</a></th>
+                    <th class = "theme1">To quickly and easily see the results of a survey</th>
+                </tr>
+                <tr>
+                    <!--Survey Companies 2-->
+                    <th class = "theme1"><a href = "#survey-companies">Survey companies (2)</a></th>
+                    <td><img class= "graph-image" alt = "favorite fruit circle graph" src = "http://2.bp.blogspot.com/-33IaJQjNINc/Uxe1K-ianKI/AAAAAAAAAcg/PhANd-W3gpc/s1600/Screenshot+from+2014-03-06+12:33:59.png"></td>
+                    <th class = "theme1"><a href = "#circle-graph">Circle Graph</a></th>
+                    <th class = "theme1">"</th>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id = "stock-holders" class = "theme1">
+            Stock Holders
+        </h3>
+        <p class = "theme2">
+            Stock holders use a xy graph to check the increase or decrease of a certain stock, and to determine if they should sell the stock.
+        </p>
+        <h3 id = "teachers" class = "theme1">
+            Teachers
+        </h3>
+        <p class = "theme2">
+            Teachers use a double bar graph to see how much the children have improved in a test.
+        </p>
+        <h3 id = "survey-companies" class = "theme1">
+            Survey Companies
+        </h3>
+        <p class = "theme2">
+            Survey company workers just need a glance, and can know all the results of a survey.
+        </p>
+        <h2 class = "theme1">
+            How can we use graphs?
+        </h2>
+        <h5 class = "theme1">
+            Seriously. After this long and boring lesson of graphs, how do we even use them in our daily life? If we can't use them, then why are we using them?
+        </h5>
+        <ul class = "theme2">
+            <li>Using a bar graph, we want to know what things are the most popular when we have a school fair</li>
+            <li>Using a double bar graph, on the other hand, can give out two attributes of one thing, like a pretest and a posttest between different people.</li>
+            <li>Using a line graph, we can see our time efficiency on homework on a daily basis</li>
+            <li>Using a circle graph, we can see our time or amount of each type of homework</li>
+        </ul>
+        <h1 class = "theme1">
+            Types of Graphs
+        </h1>
+        <h2 id = "bar-graph" class = "theme1">
+            Bar Graph
+        </h2>
+        <img class = "tog-pic" alt = "favorite fruit bar graph" src = "http://www.velaction.com/lean-information/wp-content/uploads/2009/03/bar-chart-vertical-300x180.jpg">
+        <p class = "theme2">
+            A bar graph is, as its name suggests, a graph that has bars to represent the item. The y line is the amount of that item, and the x line is that item. A bar graph is normally used to see which item is the most popular/ favorite.
+        </p>
+        <p><br></p>
+        <h2 id = "circle-graph" class = "theme1">
+            Circle Graph
+        </h2>
+        <img class = "tog-pic" alt = "favorite fruit circle graph" src = "http://2.bp.blogspot.com/-33IaJQjNINc/Uxe1K-ianKI/AAAAAAAAAcg/PhANd-W3gpc/s1600/Screenshot+from+2014-03-06+12:33:59.png">
+        <p class = "theme2">
+            A circle graph is like a pie, so its other name is a pie chart. The uses of a circle graph is like a bar graph. The size of a slice is the amount of that item (in percentages).
+        </p>
+        <p><br></p>
+        <h2 id = "double-bar-graph" class = "theme1">
+            Double Bar Graph
+        </h2>
+        <img class = "tog-pic" alt = "practice test and test scores double bar graph" src = "http://cdn-3.ask-math.com/images/Doublebargraph.png">
+        <p class = "theme2">
+            A double bar graph is a graph which every item has 2 entries. They could be the difference of scores in a practice test and the real test.
+        </p>
+        <p><br></p>
+        <!--HSBC-->
+        <h2 id = "line-graph" class = "theme1">
+            Line Graph
+        </h2>
+        <img class = "tog-pic" alt = "5 day price of HSBC stock price line graph" src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQp2oA4itmp4kDEBvgjzLOPrZGIrXk65eUiJhG9pgLaf517T6sQlg">
+        <p class = "theme2">
+            A line graph is perfect for ongoing things, like stocks because they are constantly moving.
+        </p>
+        <p><br></p>
+        <!--Mad Libs-->
+        <h1 class = "theme1">
+            Let's play Mad Libs!
+        </h1>
+        <h6 class = "theme1">
+            A Mad Libs game is a fill-in-the-blanks game where you fill in parts of speech in a box, then the computer generates the story.
+        </h6>
+        <ul class = "theme2">
+            <li>Teacher's Name: <input type = "text" id = "teacher"></li>
+            <li>Someone's Name: <input type = "text" id = "person"></li>
+            <li>
+                <label>Gender of that person:
+                    <select id = "gender">
+                        <option value = "xxx">---</option>
+                        <option value = "male">Male</option>
+                        <option value = "female">Female</option>
+                    </select>
+                </label>
+            </li>
+        </ul>
+        <button id = "lib-button" class = "theme1">Make my story!</button>
+        <p><br></p>
+        <span id = "story" class = "theme2"></span>
+        <p><br></p>
+        <!--Credits-->
+        <h1 class = "theme1">
+            Credits:
+        </h1>
+        <table>
+            <thead>
+                <tr id = "credits" class = "theme2">
+                    <th>Source</th>
+                    <th>Thing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--HSBC-->
+                <tr>
+                    <th><a target = _blank class = "ca" href = "http://seekingalpha.com/symbol/HSBC">Seeking Alpha</a></th>
+                    <td><img class = "cimage" alt = "5 day price of HSBC stock price line graph" src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQp2oA4itmp4kDEBvgjzLOPrZGIrXk65eUiJhG9pgLaf517T6sQlg"></td>
+                </tr>
+                <tr>
+                    <th><a target = _blank class = "ca" href = "http://www.ask-math.com/double-bar-graph.html">Ask Math</a></th>
+                    <td><img class = "cimage" alt = "practice test and test scores double graph" src = "http://cdn-3.ask-math.com/images/Doublebargraph.png"></td>
+                </tr>
+                <tr>
+                    <th><a target = _blank class = "ca" href = "http://www.velaction.com/bar-charts/">Velaction</a></th>
+                    <td><img class = "cimage" alt = "favorite fruit bar graph" src = "http://www.velaction.com/lean-information/wp-content/uploads/2009/03/bar-chart-vertical-300x180.jpg"></td>
+                </tr>
+                <tr>
+                    <th><a target = _blank class = "ca" href = "http://gbsalexe.blogspot.hk/2014/03/favourite-fruit-charts.html">Glenbrae School (Alex)</a></th>
+                    <td><img class = "cimage" alt = "favorite fruit circle graph" src = "http://2.bp.blogspot.com/-33IaJQjNINc/Uxe1K-ianKI/AAAAAAAAAcg/PhANd-W3gpc/s1600/Screenshot+from+2014-03-06+12:33:59.png"></td>
+                </tr>
+                <tr>
+                    <th><a target = _blank class = "ca" href = "http://www.easybib.com">EasyBib</a></th>
+                    <th class = "tt">The Bibliographies</th>
+                </tr>
+            </tbody>
+        </table>
+        <!--Put following at the end-->
+        <p>
+            <br>
+            <span class = "theme1">|</span>
+            <a class = "theme2" href = "">Back To Top</a>
+            <span class = "theme1">||</span>
+            <a class = "theme2" target = "_blank" href = "https://www.brainpop.com/math/dataanalysis/graphs/qanda_popup.weml?qanda_id=5621">More on <em>Brainpop</em></a>
+            <span class = "theme1">||</span>
+            <a class = "theme2" target = "_blank" href = "http://www.jpowered.com/graphs-and-charts/when-to-use-graphs.htm">More on <em>JPowered</em></a>
+            <span class = "theme1">||</span>
+            <a class = "theme2" target = "_blank" href = "Credits.html">Proper Bibliographies</a>
+            <span class = "theme1">|</span>
+            <!--Awesome slideshow!-->
+            <div id="slideshow">
+                <img class = "sp" src = "https://www.kasandbox.org/programming-images/animals/birds_rainbow-lorakeets.png" alt="Rainbow lorakeets">
+                <img class = "sp" src = "https://www.kasandbox.org/programming-images/animals/butterfly.png" alt="Butterfly">
+                <img class = "sp" src = "https://www.kasandbox.org/programming-images/animals/cat.png" alt="Cat">
+                <img class = "sp" src = "https://www.kasandbox.org/programming-images/animals/crocodiles.png" alt="Crocodiles">
+                <img class = "sp" src = "https://www.kasandbox.org/programming-images/animals/fox.png" alt="Fox">
+            </div>
+            <span class = "theme1">|</span>
+            <span class = "theme2">Published: Dec. 14th, 2015</span>
+            <span class = "theme1">||</span>
+            <span class = "theme2">Author: Moses Yu</span>
+            <span class = "theme1">|</span>
+        </p>
+        <script>
+            var speed = 1.5;
+            var slideshow = function(container) {
+                this.images = [];
+                this.curImage = 0;
+                for (var i = 0; i < container.childElementCount; i++) {
+                    this.images.push(container.children[i]);
+                    this.images[i].style.display = "none";
+                }
+                var nextSlide = function() {
+                    for (var i = 0; i < this.images.length; i++) {
+                        this.images[i].style.display = "none";
+                    }
+                    this.images[this.curImage].style.display = "block";
+                    this.curImage++;
+                    if (this.curImage >= this.images.length) {
+                        this.curImage = 0;
+                    }
+                window.setTimeout(nextSlide.bind(this), speed * 1000);
+                };
+                nextSlide.call(this);
+            };
+            slideshow(document.getElementById("slideshow"));
+            //Mad Libs
+            var libButton = document.getElementById("lib-button");
+            var story = document.getElementById("story");
+            var libIt = function() {
+                var teacher = document.getElementById("teacher");
+                var person = document.getElementById("person");
+                var gender = document.getElementById("gender").value;
+                var heShe = "";
+                if (gender === "male") {
+                    heShe = "He";
+                }
+                else if (gender === "female") {
+                    heShe = "She";
+                }
+                //The story
+                if (gender !== "xxx") {
+                    story.innerHTML = "At the beginning, " + person.value + " hated graphs. " + heShe + " just didn't get the hang of it. Then, " + teacher.value + " told " + person.value + " about the uses of graphs. " + heShe + " started to see how graphs are useful, therefore linking the outside life to graphs. Now, " + person.value + " knew why they are learning graphs, and started to get the hang of it. The end.";
+                }
+                //The error
+                if (gender === "xxx" || teacher.value === "" || person.value === "") {
+                    story.innerHTML = "Error. Please complete the boxes.";
+                }
+            };
+            libButton.addEventListener("click", libIt);
+        </script>
+    </body>
+</html>
